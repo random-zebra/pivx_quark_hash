@@ -1,4 +1,4 @@
-quark_hash (v1.1)
+quark_hash (v1.2)
 ===========================
 
 Python module for PIVX quark hashing.
