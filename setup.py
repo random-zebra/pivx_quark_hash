@@ -12,7 +12,7 @@ quark_hash_module = Extension('pivx_quark_hash',
                                include_dirs=['.', './sha3'])
 
 setup (name = 'pivx_quark_hash',
-       version = '1.0',
+       version = '1.1',
        package_data = {
         '': ['*.h']
         },
@@ -21,5 +21,5 @@ setup (name = 'pivx_quark_hash',
        description = 'Binding for PIVX quark proof of work hashing.',
        ext_modules = [quark_hash_module],
        url = 'https://github.com/gpdionisio/pivx_quark_hash',
-       download_url = 'https://github.com/gpdionisio/pivx_quark_hash/archive/1.0.tar.gz'
+       download_url = 'https://github.com/gpdionisio/pivx_quark_hash/archive/1.1.tar.gz'
        )
